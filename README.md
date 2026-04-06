@@ -1,17 +1,48 @@
-# inventory_app
+# Inventory App
 
-A new Flutter project.
+A Flutter inventory management application integrated with Firebase Firestore.
+
+## Features
+- Add, update, and delete inventory items
+- Real-time item display using StreamBuilder
+- Search and filter items
+- Highlight low-stock items (quantity ≤ 5)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### 1. Install dependencies
+```sh
+flutter pub add firebase_core cloud_firestore
+```
 
-A few resources to get you started if this is your first Flutter project:
+### 2. Configure Firebase
+- Install the FlutterFire CLI if you haven't:
+  ```sh
+  dart pub global activate flutterfire_cli
+  ```
+- Run the configuration:
+  ```sh
+  flutterfire configure --platforms=android
+  ```
+  - Select your Firebase project or create a new one
+  - Choose Android only
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 3. Folder Structure
+```
+lib/
+├── main.dart
+├── models/
+│   └── item_model.dart
+├── services/
+│   └── firestore_service.dart
+├── pages/
+│   └── inventory_page.dart
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+- Flutter
+- Firebase Core
+- Cloud Firestore
+
+## Author
+Darin

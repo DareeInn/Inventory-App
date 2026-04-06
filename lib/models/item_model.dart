@@ -12,11 +12,7 @@ class Item {
   });
 
   Map<String, dynamic> toMap() {
-    return {
-      'name': name,
-      'quantity': quantity,
-      'price': price,
-    };
+    return {'name': name, 'quantity': quantity, 'price': price};
   }
 
   factory Item.fromMap(String id, Map<String, dynamic> map) {

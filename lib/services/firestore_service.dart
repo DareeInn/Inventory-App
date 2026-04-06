@@ -3,8 +3,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/item_model.dart';
 
 class FirestoreService {
-  final CollectionReference<Map<String, dynamic>> itemsRef =
-      FirebaseFirestore.instance.collection('items');
+  final CollectionReference<Map<String, dynamic>> itemsRef = FirebaseFirestore
+      .instance
+      .collection('items');
 
   Future<void> addItem(Item item) async {
     await itemsRef.add(item.toMap());

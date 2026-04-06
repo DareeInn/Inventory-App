@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1033038331257",
+    "project_id": "darin-firebase-app-007-84080",
+    "storage_bucket": "darin-firebase-app-007-84080.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033038331257:android:e8f68875e5844bfccf03a8",
+        "android_client_info": {
+          "package_name": "com.example.firebase_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcr-7ATIlzGHZX19FoUCBPF-Pn2BcThIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033038331257:android:ab61804d2f78e3d3cf03a8",
+        "android_client_info": {
+          "package_name": "com.example.inventory_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcr-7ATIlzGHZX19FoUCBPF-Pn2BcThIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

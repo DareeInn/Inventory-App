@@ -50,5 +50,10 @@ lib/
 - Firebase Core
 - Cloud Firestore
 
+## Reflection Document
+
+You can view my reflection answers here:
+[Reflection Google Doc](https://docs.google.com/document/d/14ChxFzVVp3EUkfdGjFV5ji-Yp8TXWX4I9Z4c-fBxBfE/edit?usp=sharing)
+
 ## Author
 Darin
